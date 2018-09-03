@@ -1,0 +1,14 @@
+{
+  "name": "study-babel",
+  "version": "1.0.0",
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "scripts": {
+    "transform": "babel src/main.js --out-file dist/compile.js"
+  }
+}
